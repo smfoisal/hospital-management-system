@@ -252,3 +252,15 @@ th, td{
     border-bottom: 1px solid #ddd;
     padding: 15px;
 }
+
+label{
+    margin: 6px 0;
+}
+
+.btn{
+    border-radius: 2px;
+}
+
+.fa-search{
+    margin-right: 0;
+}

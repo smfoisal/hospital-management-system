@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Add New Patient | Hospital Management System</title>
+    <title>Admit Patient | Hospital Management System</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../shared/css/bootstrap.min.css" rel="stylesheet">
@@ -69,6 +69,7 @@
                 </ul>
             </li>
         </ul>
+
         <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
@@ -79,7 +80,7 @@
                     <a href="javascript:;" data-toggle="collapse" data-target="#billing"><i class="fa fa-credit-card"></i>Billing<i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="billing" class="collapse">
                         <li>
-                            <a href="../billing/pos.html" target="_blank"><i class="fa fa-angle-double-right" aria-hidden="true"></i>POS</a>
+                            <a href="../billing/pos.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i>POS</a>
                         </li>
                         <li>
                             <a href="../billing/billing-list.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Billing List</a>
@@ -315,11 +316,12 @@
             <div class="row">
                 <ol class="breadcrumb">
                     <li><i class="fa fa fa-wheelchair"></i>patient-management</li>
-                    <li class="active">add-new-patient</li>
+                    <li>ipd</li>
+                    <li class="active">admit-patient</li>
                 </ol>
                 <div class="col-lg-12">
                     <h2 class="page-header">
-                        Patient Registration
+                        Admit Patient
                     </h2>
                 </div>
             </div>
@@ -327,163 +329,13 @@
     </div>
     <!-- /#page-wrapper -->
     <div class="col-sm-12">
-        <div>
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="active"><a href="#personal-info" aria-controls="home" role="tab" data-toggle="tab">Personal Information</a></li>
-                <li role="presentation"><a href="#contact-info" aria-controls="profile" role="tab" data-toggle="tab">Contact Information</a></li>
-                <li role="presentation"><a href="#other-info" aria-controls="messages" role="tab" data-toggle="tab">Other Information</a></li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-                <div role="tabpanel" class="tab-pane fade in active" id="personal-info">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <label for="">Patient ID</label>
-                                </div>
-                                <div class="col-md-7">
-                                    <input type="text" class="form-control clearfix">
-                                </div>
-                                <div class="col-md-3">
-                                    <label for="">Title</label>
-                                </div>
-                                <div class="col-md-7">
-                                    <select class="form-control clearfix">
-                                        <option>- Title -</option>
-                                        <option>Dr.</option>
-                                        <option>Dra.</option>
-                                        <option>Mr.</option>
-                                        <option>Mrs.</option>
-                                        <option>Ms.</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-3">
-                                    <label for="">Last Name</label>
-                                </div>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control clearfix">
-                                </div>
-                                <div class="col-md-3">
-                                    <label for="">First Name</label>
-                                </div>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control clearfix">
-                                </div>
-                                <div class="col-md-3">
-                                    <label for="">Middle Name</label>
-                                </div>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control clearfix">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <label for="">Gender</label>
-                                </div>
-                                <div class="col-md-7">
-                                    <select class="form-control clearfix">
-                                        <option>- Gender -</option>
-                                        <option>Male</option>
-                                        <option>Female</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-3">
-                                    <label for="">Birthday</label>
-                                </div>
-                                <div class="col-md-7">
-                                    <input type="date" class="form-control clearfix">
-                                </div>
-                                <div class="col-md-3">
-                                    <label for="">Religion</label>
-                                </div>
-                                <div class="col-md-7">
-                                    <input type="text" class="form-control clearfix">
-                                </div>
-                                <div class="col-md-3">
-                                    <label for="">Blood Group</label>
-                                </div>
-                                <div class="col-md-7">
-                                    <input type="text" class="form-control clearfix">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="well">
+            <div class="row">
+                <div class="col-sm-4">
+                    <input type="text" class="form-control clearfix">
                 </div>
-                <div role="tabpanel" class="tab-pane fade" id="contact-info">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <label for="">House No.</label>
-                                </div>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control clearfix">
-                                </div>
-                                <div class="col-md-3">
-                                    <label for="">Brgy/Subd.</label>
-                                </div>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control clearfix">
-                                </div>
-                                <div class="col-md-3">
-                                    <label for="">City/Province</label>
-                                </div>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control clearfix">
-                                </div>
-                                <div class="col-md-3">
-                                    <label for="">Contact No.</label>
-                                </div>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control clearfix">
-                                </div>
-                                <div class="col-md-3">
-                                    <label for="">Email Address</label>
-                                </div>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control clearfix">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div role="tabpanel" class="tab-pane fade" id="other-info">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <label for="">Insurance Company</label>
-                                </div>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control clearfix">
-                                </div>
-                                <div class="col-md-3">
-                                    <label for="">Insurance ID No</label>
-                                </div>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control clearfix">
-                                </div>
-                                <div class="col-md-3">
-                                    <label for="">Patient Identifier</label>
-                                </div>
-                                <div class="col-md-9">
-                                    <textarea class="form-control clearfix"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <a href="#" type="submit" class="btn btn-info"><i class="fa fa-search" aria-hidden="true"></i>Search Patient</a>
             </div>
-            <div class="well">
-                <input type="submit" class="btn btn-success" value="Add Patient">
-                <input type="submit" class="btn btn-default" value="Close">
-            </div>
-
         </div>
     </div>
 </div>
