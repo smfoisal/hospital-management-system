@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Add Room | Hospital Management System</title>
+    <title>Patient Master | Hospital Management System</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../shared/css/bootstrap.min.css" rel="stylesheet">
@@ -80,7 +80,7 @@
                     <a href="javascript:;" data-toggle="collapse" data-target="#billing"><i class="fa fa-credit-card"></i>Billing<i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="billing" class="collapse">
                         <li>
-                            <a href="../billing/pos.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i>POS</a>
+                            <a href="../billing/pos.html" target="_blank"><i class="fa fa-angle-double-right" aria-hidden="true"></i>POS</a>
                         </li>
                         <li>
                             <a href="../billing/billing-list.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Billing List</a>
@@ -315,47 +315,66 @@
         <div class="container-fluid">
             <div class="row">
                 <ol class="breadcrumb">
-                    <li><i class="fa fa-hospital-o"></i>room-management</li>
-                    <li>room-category</li>
-                    <li class="active">add-room-category</li>
+                    <li><i class="fa fa-hospital-o"></i>hospital-management</li>
+                    <li>room-master</li>
+                    <li class="active">add-new-room</li>
                 </ol>
                 <div class="col-lg-12">
                     <h2 class="page-header">
-                        Add Room Category
+                        Add New Room
                     </h2>
                 </div>
             </div>
         </div>
     </div>
     <!-- /#page-wrapper -->
+    <div class="container">
     <div class="col-sm-12">
         <div class="well">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="col-sm-2">
-                        <label for="">Room Category Name</label>
-                    </div>
-                    <div class="col-sm-4">
-                        <input class="form-control clearfix">
-                    </div>
+            <form role="form" method="post" action="#" onsubmit="return confirm('Are you sure you want to save?');">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Room No/Name</label>
+                    <input class="form-control" name="room_name" id="room_name" type="text" placeholder="Room No/Name" required="">
                 </div>
-                <div class="col-sm-12">
-                    <div class="col-sm-2">
-                        <label for="">Description</label>
-                    </div>
-                    <div class="col-sm-4">
-                        <input class="form-control clearfix">
-                    </div>
-                </div>
-                <div class="col-sm-12">
-                    <div class="col-sm-offset-2 col-sm-4">
-                        <input type="submit" class="btn btn-success" value="Save">
-                        <a href="#" class="btn btn-default">Close</a>
-                    </div>
-                </div>
-            </div>
 
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Room Type</label>
+                    <select name="roomType" id="roomType" class="form-control" required="">
+                        <option value="">- Room Type -</option>
+                        <option value="7">Emergency Ward/ Day Care</option>
+                        <option value="5">Executive Deluxe</option>
+                        <option value="1">General Ward</option>
+                        <option value="6">ICU</option>
+                        <option value="16">my</option>
+                        <option value="15">ngp</option>
+                        <option value="8">Operation Theater</option>
+                        <option value="4">Semi Deluxe</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Floor</label>
+                    <select name="floor" id="floor" class="form-control" required="">
+                        <option value="">- Floor -</option>
+                        <option value="2">2nd Floor</option>
+                        <option value="3">3rd Floor</option>
+                        <option value="4">4th Floor</option>
+                        <option value="1">Ground Floor</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Room Rate</label>
+                    <input class="form-control" name="room_rates" id="room_rates" type="text" placeholder="eg 9999.00" required="">
+                </div>
+
+                <div class="form-group">
+                    <a href="#" class="btn btn-default">Cancel</a>
+                    <button class="btn btn-primary" name="btnSubmit" id="btnSubmit" type="submit"><i class="fa fa-save"></i> Save</button>
+                </div>
+            </form>
         </div>
+    </div>
     </div>
 </div>
 <!-- /#wrapper -->

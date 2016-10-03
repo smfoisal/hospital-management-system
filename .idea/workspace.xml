@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abe531c3-d638-4f86-a85c-259b1e25914e" name="Default" comment="" />
+    <list default="true" id="abe531c3-d638-4f86-a85c-259b1e25914e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/acknowledge-receipt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/backup-database.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/bill-group-name-master.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/category-master.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/company-information.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/complain-master.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/department-master.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/designation-master.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/diagnosis-master.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/drug-name-master.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/insurance-company.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/particular-bill-master.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/surgical-packages.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/system-pages.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/system-parameters.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/billing/billing-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/billing/surgical-quotation-costing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doctor-module/in-patient.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doctor-module/out-patient.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emr-sheet/in-patient-emr.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emr-sheet/out-patient-emr.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nurse-module/bed-side-procedure.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nurse-module/discharge-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nurse-module/intake-output-record.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nurse-module/ip-room-transfer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nurse-module/nurse-progress-note.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nurse-module/patient-history.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nurse-module/patient-medication.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nurse-module/vital-sign.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/patient-management/opd-registration.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/patient-management/out-patient-enquiry.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report-generation/acknowledgement-receipt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report-generation/admitted-patient-report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report-generation/daily-sales-report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report-generation/discharged-patient-report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report-generation/doctors-fee-report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report-generation/individual-patient-report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report-generation/patient-masterlist-report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/room-management/room-bed-master.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/room-management/room-category.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/room-management/room-enquiry.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/room-management/room-master.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user-management/add-new-user.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user-management/user-masterlist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user-management/user-roles.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patient-management/add-new-patient.html" afterPath="$PROJECT_DIR$/patient-management/add-new-patient.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patient-management/patient-master.html" afterPath="$PROJECT_DIR$/patient-management/patient-master.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/css/main.css" afterPath="$PROJECT_DIR$/shared/css/main.css" />
+    </list>
     <ignored path="hospital-management-system.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,21 +76,20 @@
       <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7055">
-              <caret line="415" column="22" selection-start-line="415" selection-start-column="22" selection-end-line="415" selection-end-column="22" />
+            <state relative-caret-position="165">
+              <caret line="301" column="24" selection-start-line="301" selection-start-column="24" selection-end-line="301" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index/login.html">
+      <file leaf-file-name="room-enquiry.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/room-management/room-enquiry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="306">
+              <caret line="359" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="392" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#input#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,28 +98,28 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shared/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4284">
-              <caret line="252" column="18" selection-start-line="252" selection-start-column="18" selection-end-line="252" selection-end-column="18" />
+            <state relative-caret-position="369">
+              <caret line="254" column="0" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add-new-patient.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/patient-management/add-new-patient.html">
+      <file leaf-file-name="room-category.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/room-management/room-category.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="349" column="46" selection-start-line="349" selection-start-column="46" selection-end-line="349" selection-end-column="46" />
+            <state relative-caret-position="289">
+              <caret line="360" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="patient-master.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patient-management/patient-master.html">
+      <file leaf-file-name="add-new-room.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/room-management/add-new-room.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="275">
+              <caret line="330" column="27" selection-start-line="330" selection-start-column="27" selection-end-line="330" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -84,18 +134,63 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/login.html" />
-        <option value="$PROJECT_DIR$/DesignTemplate.html" />
-        <option value="$PROJECT_DIR$/dashboard.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/room-management/room-bed-master.html" />
+        <option value="$PROJECT_DIR$/nurse-module/patient-medication.html" />
+        <option value="$PROJECT_DIR$/nurse-module/intake-output-record.html" />
+        <option value="$PROJECT_DIR$/nurse-module/nurse-progress-note.html" />
+        <option value="$PROJECT_DIR$/nurse-module/vital-sign.html" />
+        <option value="$PROJECT_DIR$/nurse-module/bed-side-procedure.html" />
+        <option value="$PROJECT_DIR$/nurse-module/ip-room-transfer.html" />
+        <option value="$PROJECT_DIR$/nurse-module/patient-history.html" />
+        <option value="$PROJECT_DIR$/nurse-module/discharge-summary.html" />
+        <option value="$PROJECT_DIR$/doctor-module/out-patient.html" />
+        <option value="$PROJECT_DIR$/doctor-module/in-patient.html" />
+        <option value="$PROJECT_DIR$/emr-sheet/out-patient-emr.html" />
+        <option value="$PROJECT_DIR$/emr-sheet/in-patient-emr.html" />
+        <option value="$PROJECT_DIR$/user-management/add-new-user.html" />
+        <option value="$PROJECT_DIR$/user-management/user-masterlist.html" />
+        <option value="$PROJECT_DIR$/user-management/user-roles.html" />
+        <option value="$PROJECT_DIR$/administrator/company-information.html" />
+        <option value="$PROJECT_DIR$/administrator/department-master.html" />
+        <option value="$PROJECT_DIR$/administrator/designation-master.html" />
+        <option value="$PROJECT_DIR$/administrator/bill-group-name-master.html" />
+        <option value="$PROJECT_DIR$/administrator/particular-bill-master.html" />
+        <option value="$PROJECT_DIR$/administrator/complain-master.html" />
+        <option value="$PROJECT_DIR$/administrator/diagnosis-master.html" />
+        <option value="$PROJECT_DIR$/administrator/surgical-packages.html" />
+        <option value="$PROJECT_DIR$/administrator/insurance-company.html" />
+        <option value="$PROJECT_DIR$/administrator/category-master.html" />
+        <option value="$PROJECT_DIR$/administrator/drug-name-master.html" />
+        <option value="$PROJECT_DIR$/administrator/acknowledge-receipt.html" />
+        <option value="$PROJECT_DIR$/administrator/system-parameters.html" />
+        <option value="$PROJECT_DIR$/administrator/backup-database.html" />
+        <option value="$PROJECT_DIR$/administrator/system-pages.html" />
+        <option value="$PROJECT_DIR$/report-generation/patient-masterlist-report.html" />
+        <option value="$PROJECT_DIR$/report-generation/individual-patient-report.html" />
+        <option value="$PROJECT_DIR$/report-generation/admitted-patient-report.html" />
+        <option value="$PROJECT_DIR$/report-generation/discharged-patient-report.html" />
+        <option value="$PROJECT_DIR$/report-generation/daily-sales-report.html" />
+        <option value="$PROJECT_DIR$/report-generation/doctors-fee-report.html" />
+        <option value="$PROJECT_DIR$/report-generation/acknowledgement-receipt.html" />
+        <option value="$PROJECT_DIR$/user-profile/my-profile.html" />
+        <option value="$PROJECT_DIR$/user-profile/edit-profile.html" />
         <option value="$PROJECT_DIR$/dashboard/dashboard.html" />
-        <option value="$PROJECT_DIR$/index/login.html" />
         <option value="$PROJECT_DIR$/patient-management/patient-master.html" />
-        <option value="$PROJECT_DIR$/shared/css/main.css" />
+        <option value="$PROJECT_DIR$/patient-management/in-patient-enquiry.html" />
+        <option value="$PROJECT_DIR$/patient-management/opd-registration.html" />
+        <option value="$PROJECT_DIR$/patient-management/out-patient-enquiry.html" />
+        <option value="$PROJECT_DIR$/patient-management/admit-patient.html" />
         <option value="$PROJECT_DIR$/patient-management/add-new-patient.html" />
+        <option value="$PROJECT_DIR$/room-management/room-enquiry.html" />
+        <option value="$PROJECT_DIR$/shared/css/main.css" />
+        <option value="$PROJECT_DIR$/room-management/room-category.html" />
+        <option value="$PROJECT_DIR$/room-management/add-new-room.html" />
       </list>
     </option>
   </component>
@@ -121,7 +216,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -199,7 +294,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="patient-management" />
+              <option name="myItemId" value="room-management" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -213,28 +308,14 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hospital-management-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hospital-management-system" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
+              <option name="myItemId" value="billing" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,17 +376,18 @@
       <updated>1475041198992</updated>
       <workItem from="1475041200387" duration="13742000" />
       <workItem from="1475298862157" duration="203000" />
+      <workItem from="1475303202510" duration="13796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13945000" />
+    <option name="totallyTimeSpent" value="27741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15446559" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21669106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -340,97 +422,416 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dashboard/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/room-management/room-bed-master.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7055">
-          <caret line="415" column="22" selection-start-line="415" selection-start-column="22" selection-end-line="415" selection-end-column="22" />
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/login.html">
+    <entry file="file://$PROJECT_DIR$/nurse-module/patient-medication.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nurse-module/intake-output-record.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nurse-module/nurse-progress-note.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nurse-module/vital-sign.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nurse-module/bed-side-procedure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nurse-module/ip-room-transfer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nurse-module/patient-history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nurse-module/discharge-summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doctor-module/out-patient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doctor-module/in-patient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emr-sheet/out-patient-emr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emr-sheet/in-patient-emr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-management/add-new-user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-management/user-masterlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-management/user-roles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/company-information.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/department-master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/designation-master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/bill-group-name-master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/particular-bill-master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/complain-master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/diagnosis-master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/surgical-packages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/insurance-company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/category-master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/drug-name-master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/acknowledge-receipt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/system-parameters.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/backup-database.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/system-pages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report-generation/patient-masterlist-report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report-generation/individual-patient-report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report-generation/admitted-patient-report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report-generation/discharged-patient-report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report-generation/daily-sales-report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report-generation/doctors-fee-report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report-generation/acknowledgement-receipt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-profile/my-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-profile/edit-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patient-management/in-patient-enquiry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="323" column="26" selection-start-line="323" selection-start-column="26" selection-end-line="323" selection-end-column="26" />
           <folding>
-            <element signature="n#style#0;n#input#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shared/css/main.css">
+    <entry file="file://$PROJECT_DIR$/patient-management/out-patient-enquiry.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4284">
-          <caret line="252" column="18" selection-start-line="252" selection-start-column="18" selection-end-line="252" selection-end-column="18" />
+        <state relative-caret-position="100">
+          <caret line="318" column="27" selection-start-line="318" selection-start-column="27" selection-end-line="318" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patient-management/admit-patient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="351" column="65" selection-start-line="0" selection-start-column="0" selection-end-line="357" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/patient-management/add-new-patient.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patient-management/patient-master.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blank-page.html" />
-    <entry file="file://$PROJECT_DIR$/css/main.css" />
-    <entry file="file://$PROJECT_DIR$/DesignTemplate.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patient-management/patient-master.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="476" column="34" selection-start-line="476" selection-start-column="34" selection-end-line="476" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7055">
-          <caret line="415" column="22" selection-start-line="415" selection-start-column="22" selection-end-line="415" selection-end-column="22" />
+        <state relative-caret-position="165">
+          <caret line="301" column="24" selection-start-line="301" selection-start-column="24" selection-end-line="301" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/login.html">
+    <entry file="file://$PROJECT_DIR$/patient-management/opd-registration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#input#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="-155">
+          <caret line="305" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="357" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patient-management/patient-master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="947">
+          <caret line="379" column="20" selection-start-line="332" selection-start-column="12" selection-end-line="379" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shared/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4284">
-          <caret line="252" column="18" selection-start-line="252" selection-start-column="18" selection-end-line="252" selection-end-column="18" />
+        <state relative-caret-position="369">
+          <caret line="254" column="0" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patient-management/add-new-patient.html">
+    <entry file="file://$PROJECT_DIR$/room-management/room-enquiry.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="349" column="46" selection-start-line="349" selection-start-column="46" selection-end-line="349" selection-end-column="46" />
+        <state relative-caret-position="306">
+          <caret line="359" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="392" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/room-management/room-category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="360" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/room-management/add-new-room.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="330" column="27" selection-start-line="330" selection-start-column="27" selection-end-line="330" selection-end-column="27" />
           <folding />
         </state>
       </provider>

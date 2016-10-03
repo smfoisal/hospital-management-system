@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Patient Master | Hospital Management System</title>
+    <title>Add Room | Hospital Management System</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../shared/css/bootstrap.min.css" rel="stylesheet">
@@ -80,7 +80,7 @@
                     <a href="javascript:;" data-toggle="collapse" data-target="#billing"><i class="fa fa-credit-card"></i>Billing<i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="billing" class="collapse">
                         <li>
-                            <a href="../billing/pos.html" target="_blank"><i class="fa fa-angle-double-right" aria-hidden="true"></i>POS</a>
+                            <a href="../billing/pos.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i>POS</a>
                         </li>
                         <li>
                             <a href="../billing/billing-list.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Billing List</a>
@@ -315,78 +315,50 @@
         <div class="container-fluid">
             <div class="row">
                 <ol class="breadcrumb">
-                    <li><i class="fa fa-cogs"></i>administrator</li>
-                    <li class="active">department-master</li>
+                    <li><i class="fa fa-hospital-o"></i>room-management</li>
+                    <li>room-category</li>
+                    <li class="active">add-room-category</li>
                 </ol>
                 <div class="col-lg-12">
                     <h2 class="page-header">
-                        Department
+                        Add Room Category
                     </h2>
                 </div>
             </div>
         </div>
     </div>
     <!-- /#page-wrapper -->
-    <div class="container">
-        <div class="col-sm-12">
-            <div class="well">
-                <a href="#" class="btn btn-success" data-toggle="modal" data-target="#add-new-department">Add New</a>
-                <hr class="table-top">
-                <table class="table table-hover table-striped">
-                    <thead>
-                    <tr>
-                        <th>Department Code</th>
-                        <th>Department Name</th>
-                        <th>Action</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>Anaesthetics</td>
-                        <td>Anaesthetics</td>
-                        <td>
-                            <a href="#" class="btn btn-xs btn-warning">Edit</a>
-                            <a href="#" class="delete btn btn-xs btn-danger" onclick="return confirm('Are you sure want to delete?')">Delete</a>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
+    <div class="col-sm-12">
+        <div class="well">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="col-sm-2">
+                        <label for="">Room Category Name</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input class="form-control clearfix">
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="col-sm-2">
+                        <label for="">Description</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input class="form-control clearfix">
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="col-sm-offset-2 col-sm-4">
+                        <input type="submit" class="btn btn-success" value="Save">
+                        <a href="#" class="btn btn-default">Close</a>
+                    </div>
+                </div>
             </div>
+
         </div>
     </div>
 </div>
 <!-- /#wrapper -->
-
-<!-- Modal -->
-<div id="add-new-department" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-        <!-- Modal content-->
-        <div class="modal-content">
-            <form role="form" method="post" action="#">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Add New Department</h4>
-                </div>
-                <div class="modal-body">
-                        <div class="form-group">
-                            <label for="">Department Code</label>
-                            <input class="form-control" name="code" id="code" type="text" placeholder="Department Code" required="">
-                        </div>
-                        <div class="form-group">
-                            <label for="">Department Name</label>
-                            <input class="form-control" name="department" id="department" type="text" placeholder="Department Name" required="">
-                        </div>
-
-                </div>
-                <div class="modal-footer">
-                    <input type="submit" class="btn btn-success" value="Save">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </form>
-        </div>
-
-    </div>
-</div>
 
 <!-- jQuery -->
 <script src="../shared/js/jquery.js"></script>
