@@ -316,213 +316,79 @@
             <div class="row">
                 <ol class="breadcrumb">
                     <li><i class="fa fa-cogs"></i>administrator</li>
-                    <li class="active">insurance-company</li>
+                    <li class="active">acknowledge-receipt</li>
                 </ol>
                 <div class="col-lg-12">
                     <h2 class="page-header">
-                        Insurance Company
+                        Acknowledge Receipt
                     </h2>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- /#page-wrapper -->
     <div class="container">
         <div class="col-sm-12">
             <div class="well">
-                <a href="#" class="btn btn-success" data-toggle="modal" data-target="#add-new-drug">Add New</a>
+                <div class="row">
+                    <form method="post" action="#">
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <label for="">From Date</label>
+                                </div>
+                                <div class="col-sm-3">
+                                    <label for="">To Date</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <input class="form-control" name="cFrom" id="cFrom" type="text" value="2016-10-03" placeholder="From Date Registration" required="">
+                                </div>
+                                <div class="col-sm-3">
+                                    <input class="form-control" name="cTo" id="cTo" type="text" value="2016-10-03" placeholder="to Date Registration" required="">
+                                </div>
+                                <div class="col-sm-6">
+                                    <button class="btn btn-primary" name="btnSearch" id="btnSearch" type="submit">
+                                        <i class="fa fa-search"></i> Search
+                                    </button>
+                                    <a href="#" class="btn btn-success" data-toggle="modal" data-target="#myModal">Add New Declared</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- /#page-wrapper -->
+    <div class="container">
+        <div class="col-sm-12">
+            <div class="well">
+                <!--<a href="#" class="btn btn-success" data-toggle="modal" data-target="#add-new-drug">Add New</a>-->
                 <hr class="table-top">
                 <table class="table table-hover table-striped">
                     <thead>
                     <tr>
-                        <th>Drug Name</th><th>Category</th><th>Type</th><th>Description</th><th>Action</th></tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>CYPROHEPTADINE</td>
-                        <td>ANTI-ALLERGIC</td>
-                        <td>Generic</td>
-                        <td></td>
-                        <td>
-                            <a href="#" class="btn btn-xs btn-warning">Edit</a>
-                            <a href="#" class="btn btn-xs btn-danger" onclick="return confirm('Are you sure want to delete?')">Delete</a>
-                        </td>
+                        <th>Receipt No.</th>
+                        <th>Date</th>
+                        <th>Patient No.</th>
+                        <th>Patient Name</th>
+                        <th>Sub-total</th>
+                        <th>Discount</th>
+                        <th>Total</th>
+                        <th></th>
                     </tr>
-                    <tr>
-                        <td>DIPHENHYDRAMINE</td>
-                        <td>ANTI-ALLERGIC</td>
-                        <td>Generic</td>
-                        <td></td>
-                        <td>
-                            <a href="#" class="btn btn-xs btn-warning">Edit</a>
-                            <a href="#" class="btn btn-xs btn-danger" onclick="return confirm('Are you sure want to delete?')">Delete</a>
-                        </td>
-                    <tr>
-                        <td>EPINEPHRINE</td>
-                        <td>ANTI-ASTHMATIC</td>
-                        <td>Generic</td>
-                        <td></td>
-                        <td>
-                            <a href="#" class="btn btn-xs btn-warning">Edit</a>
-                            <a href="#" class="btn btn-xs btn-danger" onclick="return confirm('Are you sure want to delete?')">Delete</a>
-                        </td>
-                    <tr>
-                        <td>ISOPROTERENOL</td>
-                        <td>ANTI-ASTHMATIC</td>
-                        <td>Generic</td>
-                        <td></td>
-                        <td>
-                            <a href="#" class="btn btn-xs btn-warning">Edit</a>
-                            <a href="#" class="btn btn-xs btn-danger" onclick="return confirm('Are you sure want to delete?')">Delete</a>
-                        </td>
-                    <tr>
-                        <td>MEDICINE</td>
-                        <td>PHARMACY</td>
-                        <td>Branded</td>
-                        <td></td>
-                        <td>
-                            <a href="#" class="btn btn-xs btn-warning">Edit</a>
-                            <a href="#" class="btn btn-xs btn-danger" onclick="return confirm('Are you sure want to delete?')">Delete</a>
-                        </td>
-                    <tr>
-                        <td>NITRIC OXIDE</td>
-                        <td>ANTI-ALLERGIC</td>
-                        <td>Generic</td>
-                        <td></td>
-                        <td>
-                            <a href="#" class="btn btn-xs btn-warning">Edit</a>
-                            <a href="#" class="btn btn-xs btn-danger" onclick="return confirm('Are you sure want to delete?')">Delete</a>
-                        </td>
-                    <tr>
-                        <td>PHENIRAMINE</td>
-                        <td>ANTI-ALLERGIC</td>
-                        <td>Generic</td>
-                        <td></td>
-                        <td>
-                            <a href="#" class="btn btn-xs btn-warning">Edit</a>
-                            <a href="#" class="btn btn-xs btn-danger" onclick="return confirm('Are you sure want to delete?')">Delete</a>
-                        </td>
-                    <tr>
-                        <td>PROMETHAZINE</td>
-                        <td>ANTI-ALLERGIC</td>
-                        <td>Generic</td>
-                        <td></td>
-                        <td>
-                            <a href="#" class="btn btn-xs btn-warning">Edit</a>
-                            <a href="#" class="btn btn-xs btn-danger" onclick="return confirm('Are you sure want to delete?')">Delete</a>
-                        </td>
-                    <tr>
-                        <td>PYRILAMINE</td>
-                        <td>ANTI-ALLERGIC</td>
-                        <td>Generic</td>
-                        <td></td>
-                        <td>
-                            <a href="#" class="btn btn-xs btn-warning">Edit</a>
-                            <a href="#" class="btn btn-xs btn-danger" onclick="return confirm('Are you sure want to delete?')">Delete</a>
-                        </td>
-                    </tbody>
+                    </thead>
                 </table>
             </div>
         </div>
     </div>
 </div>
-<!-- /#wrapper -->
-
-<!-- Modal -->
-<div id="add-new-drug" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-        <!-- Modal content-->
-        <div class="modal-content">
-            <form role="form" method="post" action="#">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Add Drug Name</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-sm-3">
-                            <label for="">Category Name</label>
-                        </div>
-                        <div class="col-sm-9">
-                            <select name="category" id="category" class="form-control clearfix" required="">
-                                <option value="">- Category Name -</option>
-                                <option value="">ANTI-ALLERGIC</option>
-                                <option value="">ANTI-ANXIETY</option>
-                                <option value="">ANTI-ARRHYTHMIA</option>
-                                <option value="">ANTI-ASTHMATIC</option>
-                                <option value="">ANTI-BACTERIAL</option>
-                                <option value="">ANTI-CHOLINERGICS</option>
-                                <option value="">ANTI-CHOLINESTERASES</option>
-                                <option value="">ANTI-HIV</option>
-                                <option value="">ANTI-INFECTIVE</option>
-                                <option value="">CATEGORY</option>
-                                <option value="">SDFGH</option>
-                                <option value="">THTHTYUYU</option>
-                            </select>
-                        </div>
-                        <div class="col-sm-3">
-                            <label for="">Type</label>
-                        </div>
-                        <div class="col-sm-9">
-                            <select name="cType" id="cType" class="form-control clearfix" required="">
-                                <option value="">- Type -</option>
-                                <option value="">Branded</option>
-                                <option value="">Generic</option>
-                            </select>
-                        </div>
-                        <div class="col-sm-3">
-                            <label for="">Drug Name</label>
-                        </div>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control clearfix">
-                        </div>
-                        <div class="col-sm-3">
-                            <label for="">Unit of Measure</label>
-                        </div>
-                        <div class="col-sm-9">
-                            <select name="uom" id="uom" class="form-control clearfix" required="">
-                                <option value="">- Unit of Measure -</option>
-                                <option value="">Bottle</option>
-                                <option value="">Each</option>
-                                <option value="">Tablet</option>
-                            </select>
-                        </div>
-                        <div class="col-sm-3">
-                            <label for="">Re-order level</label>
-                        </div>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control clearfix" placeholder="0.00">
-                        </div>
-                        <div class="col-sm-3">
-                            <label for="">Price</label>
-                        </div>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control clearfix" placeholder="0.00">
-                        </div>
-                        <div class="col-sm-3">
-                            <label for="">Stock-on-Hand</label>
-                        </div>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control clearfix" placeholder="0.00">
-                        </div>
-                        <div class="col-sm-3">
-                            <label for="">Description</label>
-                        </div>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control clearfix" placeholder="Description">
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <input type="submit" class="btn btn-success" value="Save">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </form>
-        </div>
-
-    </div>
-</div>
-
 <!-- jQuery -->
 <script src="../shared/js/jquery.js"></script>
 

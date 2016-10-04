@@ -264,3 +264,38 @@ label{
 .fa-search{
     margin-right: 0;
 }
+
+img{
+    object-fit: cover;
+    display: block;
+}
+.patient-img{
+    background-color: white;
+    width: 164px;
+    height: 164px;
+    padding: 4px;
+    border: 1px solid #bcbcbc;
+    margin-top: -75px;
+    border-radius: 0;
+}
+
+
+.patient-well{
+    margin-top: 55px;
+}
+.patient-detail{
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.patient-detail span{
+    display: block;
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+textarea{
+    max-width: 100%;
+}

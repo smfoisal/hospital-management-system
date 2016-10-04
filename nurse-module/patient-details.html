@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Acknowledge Receipt | Hospital Management System</title>
+    <title>Patient Medication | Hospital Management System</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../shared/css/bootstrap.min.css" rel="stylesheet">
@@ -35,7 +35,6 @@
 <body>
 
 <div id="wrapper">
-
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -315,12 +314,12 @@
         <div class="container-fluid">
             <div class="row">
                 <ol class="breadcrumb">
-                    <li><i class="fa fa-cogs"></i>administrator</li>
-                    <li class="active">system-parameters</li>
+                    <li><i class="fa fa-plus-square"></i>nurse-module</li>
+                    <li class="active">ipd-patient-information</li>
                 </ol>
                 <div class="col-lg-12">
                     <h2 class="page-header">
-                        System Parameters
+                        IPD Patient Information
                     </h2>
                 </div>
             </div>
@@ -328,24 +327,211 @@
     </div>
 
     <!-- /#page-wrapper -->
-    <div class="container">
-        <div class="col-sm-12">
-            <div class="well">
-
+    <div class="col-sm-3">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="well patient-well">
+                    <img src="../shared/img/avatar.png" class="img-rounded patient-img">
+                    <div class="patient-detail">
+                        <span>Patient No. : </span>000005
+                        <span>Patient Name :</span>Mrs. Melinda Changamwe Roselyn
+                    </div>
+                </div>
+                <div class="well">
+                    <div class="row">
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <th width="40%"></th>
+                                <th width="60%"></th>
+                            </thead>
+                            <tbody>
+                            <tr><td>IOP No.</td><td><strong>IP-000017</strong></td></tr>
+                            <tr><td>Date Time Admit</td><td><strong>Aug 27, 2014 02:51:19 AM</strong></td></tr>
+                            <tr><td>In-Charge Doctor</td><td><strong>Dr. Huasm Dr. Husam</strong></td></tr>
+                            <tr><td>Department</td><td><strong>Anaesthetics</strong></td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!-- jQuery -->
-<script src="../shared/js/jquery.js"></script>
+    <div class="col-sm-9">
+        <div class="well">
+            <a href="#" class="btn btn-info" data-toggle="modal" data-target="#modal-add-medication"><i class="fa fa-plus"></i> Add Medication</a>
+            <a href="#" class="btn btn-default"><i class="fa fa-print"></i> Print</a>
+            <hr class="table-top">
+            <table class="table table-hover table-striped">
+                <thead>
+                <tr>
+                    <th>Medicine Name</th>
+                    <th>Instruction</th>
+                    <th>Advice</th>
+                    <th>Days</th>
+                    <th>Qty</th>
+                    <th>Prepared by</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>EPINEPHRINE</td>
+                    <td>fsdfdsfds</td>
+                    <td>sdfdsf</td>
+                    <td>12</td>
+                    <td>0</td>
+                    <td>Ms. Beannca A. Angeles</td>
+                    <td>
+                        <a href="#" onclick="return confirm('Are you sure you want to remove?');" class="btn btn-xs btn-danger">Remove</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>CYPROHEPTADINE</td>
+                    <td></td>
+                    <td></td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>Ms. Beannca A. Angeles</td>
+                    <td>
+                        <a href="#" onclick="return confirm('Are you sure you want to remove?');" class="btn btn-xs btn-danger">Remove</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>CHLORPHENIRAMINE</td>
+                    <td>test</td>
+                    <td>finished</td>
+                    <td>90</td>
+                    <td>10</td>
+                    <td>Ms. Beannca A. Angeles</td>
+                    <td>
+                        <a href="#" onclick="return confirm('Are you sure you want to remove?');" class="btn btn-xs btn-danger">Remove</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>DIPHENHYDRAMINE</td>
+                    <td>as</td>
+                    <td>as</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>Ms. Beannca A. Angeles</td>
+                    <td>
+                        <a href="#" onclick="return confirm('Are you sure you want to remove?');" class="btn btn-xs btn-danger">Remove</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>PHENIRAMINE</td>
+                    <td>after eating lunch</td>
+                    <td>Do not pass the 1 dose per day</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>Ms. Beannca A. Angeles</td>
+                    <td>
+                        <a href="#" onclick="return confirm('Are you sure you want to remove?');" class="btn btn-xs btn-danger">Remove</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>PROMETHAZINE</td>
+                    <td>geg</td>
+                    <td>geget</td>
+                    <td>3</td>
+                    <td>45</td>
+                    <td>Mr. Admin A. Administrator</td>
+                    <td>
+                        <a href="#" onclick="return confirm('Are you sure you want to remove?');" class="btn btn-xs btn-danger">Remove</a>
+                    </td>
+                </tr>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="../shared/js/bootstrap.min.js"></script>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
-<!-- Morris Charts JavaScript -->
-<script src="../shared/js/plugins/morris/raphael.min.js"></script>
-<script src="../shared/js/plugins/morris/morris.min.js"></script>
-<script src="../shared/js/plugins/morris/morris-data.js"></script>
+    <!-- Modal -->
+    <div id="modal-add-medication" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <form role="form" method="post" action="#">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Add Diagnosis</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <label for="">Category</label>
+                            </div>
+                            <div class="col-sm-9">
+                                <select name="category" onchange="showDrugName(this.value);" id="category" class="form-control" required="">
+                                    <option value="">- Category Name -</option>
+                                    <option value="">ANTI-ALLERGIC</option>
+                                    <option value="">ANTI-ANXIETY</option>
+                                    <option value="">ANTI-ARRHYTHMIA</option>
+                                    <option value="">ANTI-ASTHMATIC</option>
+                                    <option value="">ANTI-BACTERIAL</option>
+                                    <option value="">ANTI-CHOLINERGICS</option>
+                                    <option value="">ANTI-CHOLINESTERASES</option>
+                                    <option value="">ANTI-HIV</option>
+                                    <option value="">ANTI-INFECTIVE</option>
+                                    <option value="">CATEGORY</option>
+                                    <option value="">SDFGH</option>
+                                    <option value="">THTHTYUYU</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-3">
+                                <label for="">Drug Name</label>
+                            </div>
+                            <div class="col-sm-9">
+                                <select name="drug_name" id="drug_name" class="form-control" required="">
+                                    <option value="">- select -</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-3">
+                                <label for="">Days</label>
+                            </div>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control clearfix">
+                            </div>
+                            <div class="col-sm-3">
+                                <label for="">Qty</label>
+                            </div>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control clearfix">
+                            </div>
+                            <div class="col-sm-3">
+                                <label for="">Instruction</label>
+                            </div>
+                            <div class="col-sm-9">
+                                <textarea class="form-control"></textarea>
+                            </div>
+                            <div class="col-sm-3">
+                                <label for="">Advice</label>
+                            </div>
+                            <div class="col-sm-9">
+                                <textarea class="form-control"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="submit" class="btn btn-success" value="Save">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../shared/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../shared/js/bootstrap.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="../shared/js/plugins/morris/raphael.min.js"></script>
+    <script src="../shared/js/plugins/morris/morris.min.js"></script>
+    <script src="../shared/js/plugins/morris/morris-data.js"></script>
 
 </body>
 
