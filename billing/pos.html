@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Point of Sale | Hospital Management System</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../shared/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../shared/css/main.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="../shared/css/plugins/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../shared/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700,900" rel="stylesheet">
+</head>
+
+<style>
+    body{
+        padding-top: 25px;
+    }
+</style>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><strong>Hospital Management System</strong></a>
+    </div>
+    <!-- Top Menu Items -->
+    <ul class="nav navbar-right top-nav">
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>Shaheen Md. Foisal<i class="fa fa-fw fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+    <div class="col-sm-3">
+        <div class="well patient-well">
+            <img src="../shared/img/avatar.png" class="img-rounded patient-img">
+            <div class="patient-detail">
+                <span>Patient No. : </span>000005
+                <span>Patient Name :</span>Mrs. Melinda Changamwe Roselyn
+                <span>Date :</span><input type="text" class="form-control clearfix" placeholder="10/04/2016" disabled>
+                <span>Invoice No. :</span><input type="text" class="form-control clearfix" placeholder="SI-000081" disabled>
+                <span>Total Items :</span><input type="text" class="form-control clearfix" placeholder="0" disabled>
+                <span>Sub Total :</span><input type="text" class="form-control clearfix" placeholder="0.00" disabled>
+                <span>Discount :</span><input type="text" class="form-control clearfix" placeholder="0">
+                <span>Total Amount :</span><input type="text" class="form-control clearfix" placeholder="0.00" disabled>
+                <span>Reason for Discount :</span>
+                <select name="reason_dicount" id="reason_dicount" class="form-control clearfix">
+                    <option value="">- Reason for Discount -</option>
+                    <option value="64">Student</option>
+                    <option value="65">Senior Citizen</option>
+                    <option value="66">Sample Reason here</option>
+                    <option value="67">Person with Disablities</option>
+                    <option value="68">Management Decision</option>
+                    <option value="69">Below Poverty Line</option>
+                    <option value="70">Employee</option>
+                    <option value="71">Member</option>
+                </select>
+                <span>Remarks :</span><textarea class="form-control clearfix" placeholder="Remarks"></textarea>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-9">
+        <div class="well" style="height: 480px; overflow: auto;">
+            <h3>Billing List</h3>
+            <hr class="table-top">
+            <table class="table table-hover table-striped">
+                <thead>
+                <tr style="border-bottom:1px #999 solid; border-collapse:collapse">
+                    <th width="3%">No.</th>
+                    <th width="42%">Particular Name</th>
+                    <th width="7%">Qty</th>
+                    <th width="10%">Rate</th>
+                    <th width="10%">Amount</th>
+                    <th width="25%">Note</th>
+                    <th width="3%"></th>
+                </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="well"><!-- style="position: fixed; bottom: 4px;"-->
+            <a href="#" class="btn btn-default btn-box"><span><i class="fa fa-refresh"></i></span>Refresh</a>
+            <a href="#" class="btn btn-default btn-box"><span><i class="fa fa-user-md"></i></span>Doctor's Fee</a>
+            <a href="#" class="btn btn-default btn-box"><span><i class="fa fa-user"></i></span>Patient</a>
+            <a href="#" class="btn btn-default btn-box"><span><i class="fa fa-plus"></i></span>Add Item</a>
+            <a href="#" class="btn btn-default btn-box"><span><i class="fa fa-hand-o-down"></i></span>1-Click Billed</a>
+            <a href="#" class="btn btn-default btn-box"><span><i class="fa fa-save"></i></span>Save</a>
+            <a href="#" class="btn btn-default btn-box"><span><i class="fa fa-credit-card"></i></span>Payment</a>
+            <a href="#" class="btn btn-default btn-box"><span><i class="fa fa-print"></i></span>Print Invoice</a>
+            <a href="#" class="btn btn-default btn-box"><span><i class="fa fa-print"></i></span>Print Receipt</a>
+        </div>
+    </div>
+<!-- jQuery -->
+<script src="../shared/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../shared/js/bootstrap.min.js"></script>
+
+<!-- Morris Charts JavaScript -->
+<script src="../shared/js/plugins/morris/raphael.min.js"></script>
+<script src="../shared/js/plugins/morris/morris.min.js"></script>
+<script src="../shared/js/plugins/morris/morris-data.js"></script>
+
+</body>
+
+</html>

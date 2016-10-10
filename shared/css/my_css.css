@@ -1,0 +1,30 @@
+/*Mobin Custom CSS*/
+.enlarged_css{
+  width:300px;
+}
+.more_enlarged{
+  width: 310px;
+}
+.small_css{
+  width:200px;
+}
+.enlarged_css option{
+  width:300px;
+}
+.blue_font{
+  color:#3c8dbc;
+}
+.padding_bottom{
+  padding-bottom: 10px;
+  padding-bottom: 10px;
+}
+.no_padding{
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.both_padding{
+  padding-left: 10px;
+  padding-right: 10px;
+}

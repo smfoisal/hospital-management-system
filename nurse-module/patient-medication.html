@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Patient Medication | Hospital Management System</title>
+    <title>Dashboard | Hospital Management System</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../shared/css/bootstrap.min.css" rel="stylesheet">
@@ -35,9 +35,7 @@
 <body>
 
 <div id="wrapper">
-    <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -72,14 +70,14 @@
         <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
-                <li>
+                <li class="active">
                     <a href="../dashboard/dashboard.html"><i class="fa fa-fw fa-dashboard"></i>Dashboard</a>
                 </li>
                 <li>
                     <a href="javascript:;" data-toggle="collapse" data-target="#billing"><i class="fa fa-credit-card"></i>Billing<i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="billing" class="collapse">
                         <li>
-                            <a href="../billing/pos.html" target="_blank"><i class="fa fa-angle-double-right" aria-hidden="true"></i>POS</a>
+                            <a href="../billing/pos.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i>POS</a>
                         </li>
                         <li>
                             <a href="../billing/billing-list.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Billing List</a>
@@ -314,116 +312,119 @@
         <div class="container-fluid">
             <div class="row">
                 <ol class="breadcrumb">
-                    <li><i class="fa fa-plus-square"></i>nurse-module</li>
-                    <li class="active">patient-medication</li>
+                    <li class="active">
+                        <i class="fa fa-plus-square"></i>Nurse Module / Patient Medication
+                    </li>
                 </ol>
                 <div class="col-lg-12">
                     <h2 class="page-header">
-                        Patient Medication
+                      Patient Medication
                     </h2>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- /#page-wrapper -->
-    <div class="container">
+    <div class="col-sm-12 col-md-12">
         <div class="well">
-            <div class="row">
-                <div class="col-sm-offset-3 col-sm-6">
-                    <input type="search" class="light-table-filter form-control clearfix input-lg" data-table="order-table" placeholder="Search Patient...">
-                </div>
-                <div class="col-sm-12"><hr class="table-top"></div>
+            <div class="col-sm-offset-3 col-md-6 col-sm-6">
+                <input type="search" class="light-table-filter form-control clearfix input-xs" data-table="order-table" placeholder="Search Patient...">
             </div>
-            <table class="order-table table table table-hover table-striped results">
-                <thead>
-                <tr>
-                    <th>IOP No.</th>
-                    <th>Patient No.</th>
-                    <th>Name</th>
-                    <th></th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>IP-000018</td>
-                    <td>000005</td>
-                    <td>Ryan Mansur</td>
-                    <td><a href="patient-details.html" class="btn btn-info btn-sm">Show Details</a></td>
-                </tr>
-                <tr>
-                    <td>IP-000017</td>
-                    <td>000005</td>
-                    <td>Sarwar Hossain</td>
-                    <td><a href="patient-details.html" class="btn btn-info btn-sm">Show Details</a></td>
-                </tr>
-                <tr>
-                    <td>IP-000017</td>
-                    <td>000005</td>
-                    <td>Gudman </td>
-                    <td><a href="patient-details.html" class="btn btn-info btn-sm">Show Details</a></td>
-                </tr>
-                <tr>
-                    <td>IP-000017</td>
-                    <td>000005</td>
-                    <td>Selfia</td>
-                    <td><a href="patient-details.html" class="btn btn-info btn-sm">Show Details</a></td>
-                </tr>
-                </tbody>
-            </table>
+            <div class="col-sm-12 col-xs-12"><hr class="table-top"></div>
+        <table class="table-responsive order-table table table table-hover table-striped results">
+            <thead>
+            <tr>
+                <th>IOP No.</th>
+                <th>Name</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Pateint-0001</td>
+                <td>Charles</td>
+                <td><a href="patient-details.html" class="btn btn-info btn-xs">Select</a></td>
+            </tr>
+            <tr>
+                <td>Pateint-0002</td>
+                <td>Shadman</td>
+                <td><a href="patient-details.html" class="btn btn-info btn-xs">Select</a></td>
+            </tr>
+            <tr>
+                <td>Pateint-0003</td>
+                <td>Faisal</td>
+                <td><a href="patient-details.html" class="btn btn-info btn-xs">Select</a></td>
+            </tr>
+            <tr>
+                <td>Pateint-0004</td>
+                <td>Mobin</td>
+                <td><a href="patient-details.html" class="btn btn-info btn-xs">Select</a></td>
+            </tr>
+            <tr>
+                <td>Pateint-0004</td>
+                <td>Mobin</td>
+                <td><a href="patient-details.html" class="btn btn-info btn-xs">Select</a></td>
+            </tr>
+
+            </tbody>
+        </table>
         </div>
-    </div>
-    <script>
-        (function(document) {
-            'use strict';
+        </div>
+</div>
+<!-- /#wrapper -->
 
-            var LightTableFilter = (function(Arr) {
+<!-- jQuery -->
+<script>
+    (function(document) {
+        'use strict';
 
-                var _input;
+        var LightTableFilter = (function(Arr) {
 
-                function _onInputEvent(e) {
-                    _input = e.target;
-                    var tables = document.getElementsByClassName(_input.getAttribute('data-table'));
-                    Arr.forEach.call(tables, function(table) {
-                        Arr.forEach.call(table.tBodies, function(tbody) {
-                            Arr.forEach.call(tbody.rows, _filter);
-                        });
+            var _input;
+
+            function _onInputEvent(e) {
+                _input = e.target;
+                var tables = document.getElementsByClassName(_input.getAttribute('data-table'));
+                Arr.forEach.call(tables, function(table) {
+                    Arr.forEach.call(table.tBodies, function(tbody) {
+                        Arr.forEach.call(tbody.rows, _filter);
+                    });
+                });
+            }
+
+            function _filter(row) {
+                var text = row.textContent.toLowerCase(), val = _input.value.toLowerCase();
+                row.style.display = text.indexOf(val) === -1 ? 'none' : 'table-row';
+            }
+
+            return {
+                init: function() {
+                    var inputs = document.getElementsByClassName('light-table-filter');
+                    Arr.forEach.call(inputs, function(input) {
+                        input.oninput = _onInputEvent;
                     });
                 }
+            };
+        })(Array.prototype);
 
-                function _filter(row) {
-                    var text = row.textContent.toLowerCase(), val = _input.value.toLowerCase();
-                    row.style.display = text.indexOf(val) === -1 ? 'none' : 'table-row';
-                }
+        document.addEventListener('readystatechange', function() {
+            if (document.readyState === 'complete') {
+                LightTableFilter.init();
+            }
+        });
 
-                return {
-                    init: function() {
-                        var inputs = document.getElementsByClassName('light-table-filter');
-                        Arr.forEach.call(inputs, function(input) {
-                            input.oninput = _onInputEvent;
-                        });
-                    }
-                };
-            })(Array.prototype);
+    })(document);
+</script>
+<!-- jQuery -->
+<script src="../shared/js/jquery.js"></script>
 
-            document.addEventListener('readystatechange', function() {
-                if (document.readyState === 'complete') {
-                    LightTableFilter.init();
-                }
-            });
+<!-- Bootstrap Core JavaScript -->
+<script src="../shared/js/bootstrap.min.js"></script>
 
-        })(document);
-    </script>
-    <!-- jQuery -->
-    <script src="../shared/js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../shared/js/bootstrap.min.js"></script>
-
-    <!-- Morris Charts JavaScript -->
-    <script src="../shared/js/plugins/morris/raphael.min.js"></script>
-    <script src="../shared/js/plugins/morris/morris.min.js"></script>
-    <script src="../shared/js/plugins/morris/morris-data.js"></script>
+<!-- Morris Charts JavaScript -->
+<script src="../shared/js/plugins/morris/raphael.min.js"></script>
+<script src="../shared/js/plugins/morris/morris.min.js"></script>
+<script src="../shared/js/plugins/morris/morris-data.js"></script>
 
 </body>
 

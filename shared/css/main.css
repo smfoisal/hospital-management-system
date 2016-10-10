@@ -122,31 +122,40 @@ ul.alert-dropdown {
 
 /* Side Navigation */
 
-@media(min-width:768px) {
-    .side-nav {
-        position: fixed;
-        top: 51px;
-        left: 240px;
-        width: 240px;
-        margin-left: -240px;
-        border: none;
-        border-radius: 0;
-        overflow-y: auto;
-        background-color: #222;
-        bottom: 0;
-        overflow-x: hidden;
-        padding-bottom: 40px;
-    }
+.side-nav {
+    position: fixed;
+    top: 51px;
+    left: 240px;
+    width: 240px;
+    margin-left: -240px;
+    border: none;
+    border-radius: 0;
+    overflow-y: auto;
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0, #2C3E50),
+            color-stop(1, #34495E)
+    );
+    background-image: -o-linear-gradient(bottom, #2C3E50 0%, #34495E 100%);
+    background-image: -moz-linear-gradient(bottom, #2C3E50 0%, #34495E 100%);
+    background-image: -webkit-linear-gradient(bottom, #2C3E50 0%, #34495E 100%);
+    background-image: -ms-linear-gradient(bottom, #2C3E50 0%, #34495E 100%);
+    background-image: linear-gradient(to bottom, #2C3E50 0%, #34495E 100%);
+    bottom: 0;
+    overflow-x: hidden;
+    padding-bottom: 40px;
+}
 
-    .side-nav>li>a {
-        width: 240px;
-    }
+.side-nav>li>a {
+    width: 240px;
+}
 
-    .side-nav li a:hover,
-    .side-nav li a:focus {
-        outline: none;
-        background-color: #000 !important;
-    }
+.side-nav li a:hover,
+.side-nav li a:focus {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 .navbar-nav>li>a {
      padding-top: 12px;
@@ -298,4 +307,37 @@ img{
 
 textarea{
     max-width: 100%;
+}
+
+/*---------------------------------------------------Mobin Custom CSS--------------------------------------------------------------*/
+.enlarged_css{
+  width:300px;
+}
+.more_enlarged{
+  width: 310px;
+}
+.small_css{
+  width:200px;
+}
+.enlarged_css option{
+  width:300px;
+}
+.blue_font{
+  color:#3c8dbc;
+}
+.padding_bottom{
+  padding-bottom: 10px;
+}
+.no_padding{
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.both_padding{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.top_padding{
+  padding-top: 10px;
 }
