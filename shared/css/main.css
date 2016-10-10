@@ -8,9 +8,10 @@
 
 body {
     margin-top: 100px;
-    background-color: #eeeeee;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 600;
+    background-color: #F1F4F9;
+    /*font-family: "Titillium Web", sans-serif;*/
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: normal;
 }
 
 /*SCROLLBAR DESIGN*/
@@ -54,6 +55,15 @@ body {
 
 /* Top Navigation */
 
+.navbar-inverse{
+    background-color: #272b35;
+    border-bottom: 1px solid #232730;
+}
+
+.navbar-inverse .navbar-brand{
+    color: #fff;
+}
+
 .top-nav {
     padding: 0 15px;
 }
@@ -67,7 +77,7 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
     line-height: 20px;
-    color: #999;
+    color: #fff;
 }
 
 .top-nav>li>a:hover,
@@ -131,18 +141,8 @@ ul.alert-dropdown {
     border: none;
     border-radius: 0;
     overflow-y: auto;
-    background-image: -webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            color-stop(0, #2C3E50),
-            color-stop(1, #34495E)
-    );
-    background-image: -o-linear-gradient(bottom, #2C3E50 0%, #34495E 100%);
-    background-image: -moz-linear-gradient(bottom, #2C3E50 0%, #34495E 100%);
-    background-image: -webkit-linear-gradient(bottom, #2C3E50 0%, #34495E 100%);
-    background-image: -ms-linear-gradient(bottom, #2C3E50 0%, #34495E 100%);
-    background-image: linear-gradient(to bottom, #2C3E50 0%, #34495E 100%);
+    background-color: #2b303b;
+    color: #626262;
     bottom: 0;
     overflow-x: hidden;
     padding-bottom: 40px;
@@ -214,6 +214,8 @@ h1, h2, h3, h4, h5{
 
 .well{
     background-color: white;
+    border: none;
+    box-shadow: 0 1px 2px #ddd;
 }
 i{
     width: 18px;
